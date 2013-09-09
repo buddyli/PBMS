@@ -7,7 +7,7 @@
 
 ====关于作者================================================================================================
 Author:Buddy.Li
-email:lichuanbao1234@163.com/lichuanbao.buddy@hotmail.com
+email:lichuanbao1234@163.com/lichuanbao.buddy@gmail.com
 QQ:381885958
 Job:A server side software programmer work with java,python and linux/unix shell
 

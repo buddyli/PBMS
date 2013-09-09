@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="operation">
+        <item>@string/forward_list_books</item>
+        <item>@string/forward_add_book</item>
+    </array>
+
+    <string-array name="book_type">
+        <item>互联网</item>
+        <item>编程语言</item>
+        <item>移动终端</item>
+        <item>操作系统</item>
+        <item>数据库</item>
+        <item>大数据</item>
+        <item>商业智能</item>
+        <item>操作系统</item>
+        <item>软件工程</item>
+        <item>文学</item>
+        <item>旅游丛书</item>
+        <item>经济学</item>
+        <item>自然科学</item>
+        <item>人文科学</item>
+        <item>不限</item>
+    </string-array>
+    <string-array name="book_buy_status">
+        <item>已购</item>
+        <item>加入心愿单-以后购买</item>
+        <item>不限</item>
+    </string-array>
+    <string-array name="book_read_status">
+        <item>未读</item>
+        <item>在读中</item>
+        <item>已读完</item>
+        <item>不限</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#D2691E"
+        android:gravity="left" >
+
+        <Spinner
+            android:id="@+id/select_book_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:prompt="@string/select_book_type" >
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/select_book_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/select_book_type"
+            android:drawSelectorOnTop="true"
+            android:prompt="@string/select_book_read" />
+
+        <Spinner
+            android:id="@+id/select_book_buy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/select_book_read"
+            android:drawSelectorOnTop="true"
+            android:prompt="@string/select_book_buy" />
+    </RelativeLayout>
+    <!--
+        <TextView
+        android:id="@+id/bookLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:background="#D2691E"
+        android:gravity="center"
+        android:text="@string/book_list_label"
+        android:textSize="25sp" />
+    -->
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#D2691E"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

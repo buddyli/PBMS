@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/list_book_from_add"
+        android:alphabeticShortcut="l"
+        android:title="@string/list_books"/>
+    <item
+        android:id="@+id/back_main_from_add"
+        android:alphabeticShortcut="b"
+        android:title="@string/back_to_main"/>
+
+</menu>

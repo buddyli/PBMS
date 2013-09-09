@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CaptureActivity!</string>
+    <string name="app_name">个人图书管理系统</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="list_books">图书列表</string>
+    <string name="add_book">添加图书</string>
+    <string name="forward_list_books">查看图书列表</string>
+    <string name="forward_add_book">继续添加图书</string>
+    <string name="scan_book">扫码添加图书</string>
+    <string name="sys_config">系统配置</string>
+    <string name="empty">暂时没有图书</string>
+    <string name="book_name_label_str">名称</string>
+    <string name="book_author_label_str">作者</string>
+    <string name="book_list_label">图书列表</string>
+    <string name="bookAuthorLabelText">作者：</string>
+    <string name="bookIsbnLabelText">ISBN：</string>
+    <string name="bookInsertTimeLabelText">录入时间：</string>
+    <string name="bookTypeLabelText">图书类型：</string>
+    <string name="operation_title">请选择操作类型</string>
+    <string name="about_text">\
+	    个人图书管理系统(PBMS)V1.0\n
+	    作者：Buddy.Li\n
+	    总监：Lucy.Zhang\n
+	    \n通过本系统，可以轻松管理您的私人图书。</string>
+    <string name="spinner_book_type_label">图书分类：</string>
+    <string name="spinner_book_type_prompt">请选择图书分类</string>
+    <string name="spinner_book_read_status_label">阅读状态：</string>
+    <string name="spinner_book_read_status_prompt">请选择阅读状态</string>
+    <string name="spinner_book_buy_status_label">购买状态：</string>
+    <string name="spinner_book_buy_status_prompt">请选择购买状态</string>
+    <string name="select_book_type">请选择图书类型</string>
+    <string name="select_book_buy">请选择购买状态</string>
+    <string name="select_book_read">请选择阅读状态</string>
+    <string name="add_new_book">添加图书</string>
+    <string name="back_to_main">返回主页</string>
+
+</resources>
